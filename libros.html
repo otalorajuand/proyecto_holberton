@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Recomendaciones de Películas y Libros
+      </title>
+      <link rel="icon" type="image/x-icon" href="foto_jd.ico">
+      <!--Favicon, icon on the navigation tab -->
+      <meta charset="UTF-8">
+      <!--Encoding-->
+      <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+      <link href="styles.css" rel="stylesheet">
+      <script type="text/javascript">
+         function handleSelect(elm)
+         {
+            window.location = elm.value+".html";
+         }
+      </script>
+      <script type="text/javascript">
+         function go_home() {
+             window.location.href = "index.html";
+         };
+      </script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="UyNLuv0r"></script> <!--- facebook --->
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script>
+         /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+         /*
+         var disqus_config = function () {
+         this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+         };
+         */
+         (function() { // DON'T EDIT BELOW THIS LINE
+         var d = document, s = d.createElement('script');
+         s.src = 'https://recomendaciones-de-libros-y-peliculas.disqus.com/embed.js';
+         s.setAttribute('data-timestamp', +new Date());
+         (d.head || d.body).appendChild(s);
+         })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   </head>
+   <body class="works_on_smartphone">
+      <header>
+         <span class="logo">
+         <a href="index.html">Recomendaciones de Películas y Libros</a>
+         </span>
+         <div class = "right">
+            <ul>
+               <li>
+                  <div id="fb-root"></div>
+                  <div class="fb-share-button" data-href="https://es-la.facebook.com/HolbertonSchoolColombia/" data-layout="button" data-size="small">
+                     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fes-la.facebook.com%2FHolbertonSchoolColombia%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a>
+                  </div>
+                  <!--- facebook--->
+               </li>
+               <li>
+                  <div style="padding-top: 0.8em; padding-bottom: 1em">
+                     <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+                  </div>
+                  <!--- twitter--->
+               </li>
+            </ul>
+         </div>
+         <nav>
+            <ul>
+               <li>
+                  <select name="Gustos" id="seleccion" onchange="javascript:handleSelect(this)" onmouseover="this.size=this.length"
+                     onmouseout="this.size=1">
+                     <option value="" selected disabled hidden >Gustos</option>
+                     <option value="cine">Cine</option>
+                     <option value="libros">Libros</option>
+                  </select>
+               </li>
+               <li>
+                  <a href="motivacion.html" class="Motivacion">Motivación</a>
+               </li>
+               <li class="quien_soy">
+                  <a href="quien_soy.html" class="Quien soy">¿Quién soy?</a>
+               </li>
+               <li class="tweet">
+                  <a href="tweets.html" class="tweets">Tweets</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <article>
+         
+         <p>En la siguiente sección vamos a recomendar 3 libros de literatura universal.</p>
+         <div>
+            <div class = "container">
+               <img class="imagen_libros" src="https://tecreolibreria.com/3753-large_default/ideas-peter-watson.jpg">
+               <div class="middle_libros">
+                  <div class="image_text"><a href="https://www.amazon.com/-/es/Peter-Watson/dp/8474239176/ref=sr_1_2?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1PNDJ3EHRBXJE&keywords=ideas+peter+watson&qid=1645056245&s=books&sprefix=ideas+peter+watson%2Cstripbooks-intl-ship%2C105&sr=1-2" target="_blank">Comprar Libro en Amazon</a></div>
+               </div>
+            </div>
+            <h3>Título:</h3>
+            <p class = "descripcion">Ideas</p>
+            <h3>Descripción:</h3>
+            <p class="descripcion">
+               Ideas es un libro sobre la historia intelectual de la humanidad. En este libro se recuentan 
+               las principales ideas que llevaron a los seres humanos a ser la especie dominante sobre el planeta.
+               Entre las principales ideas que relata el libro se encuentran la idea del alma, la idea de europa y 
+               la idea de el insconciente. Este libro explora el impacto de cada una de estas ideas e ilustra la estructura 
+               cronológica en donde se desarrollaron.  
+            </p>
+         </div>
+         <br clear="all">
+         <div>
+            <div class = "container">
+               <img class="imagen_libros" src="https://panamericana.vteximg.com.br/arquivos/ids/192459-1080-1080/las-intermitencias-de-la-muerte-1-9789588940526.jpg?v=636252913641900000">
+               <div class="middle_libros">
+                  <div class="image_text"><a href="https://www.amazon.com/-/es/Jose-Saramago/dp/8490628777/ref=sr_1_1?keywords=las+intermitencias+de+la+muerte&qid=1645056281&sprefix=las+inte%2Caps%2C99&sr=8-1" target="_blank">Comprar Libro en Amazon</a></div>
+               </div>
+            </div>
+            <h3>Título:</h3>
+            <p class = "descripcion">Las intermitencias de la muerte</p>
+            <h3>Descripción:</h3>
+            <p class="descripcion">
+               Las intermitencias de la muerte es una novela del ganador del premio nobel de literatura José Saramago, la cual contiene
+               una trama típica del autor, donde se presenta una situación hipotética para una sociedad y en donde se desarrollan 
+               los posibles impactos que se pueden generar en las personas. Para esta historia, la situación hipotética y 
+               fantástica consiste en que la gente deja de morirse. La novela cuenta cuales son los efectos políticos y sociales 
+               de tal situación y utiliza a varios personajes para entender también el impacto psicológico de la falta 
+               de muerte.
+            </p>
+         </div>
+         <br clear="all">
+         <div class = "container">
+            <img class="imagen_libros" src="https://www.viamalama.com/wp-content/uploads/2017/08/un-mundo-nuevo-1.jpg">
+            <div class="middle_libros">
+               <div class="image_text"><a href="https://www.amazon.com/-/es/Un-nuevo-mundo-ahora-audiolibro/dp/B07TMRY6H1/ref=sr_1_1?keywords=a+new+world+now+eckhart+tolle&qid=1645056360&sprefix=un+nuevo+m%2Caps%2C106&sr=8-1" target="_blank">Comprar Libro en Amazon</a></div>
+            </div>
+         </div>
+         <h3>Título:</h3>
+         <p class = "descripcion">Un nuevo mundo, ahora</p>
+         <h3>Descripción:</h3>
+         <p class="descripcion">
+            Un nuevo mundo, ahora es un libro de espiritualidad donde se disecta al ego. El autor expone 
+            los pormenores y perjuicios que supone estar indentificado con el ego, nos brinda herramientas
+            como la presencia y la respiración para conectarnos con nosotros mismos y nos muestra un nuevo mundo
+            donde podemos estar identificados con el ser y vivir una vida con más bienestar y paz.
+         </p>
+         <br clear="all">
+         <button class="go_home_button" onclick="javascript:go_home(this)">Volver al Home</button>
+         </article>
+         <aside>
+            <div id="disqus_thread">
+            </div>
+         </aside>
+      </main>
+      <footer>
+         <p>Made by Juan David Otálora Carrillo for</p>
+         <a href="https://apply.holbertonschool.com" target="_blank">
+         <img src="https://apply.holbertonschool.com/holberton-logo.png">
+         </a>
+         <ul id="contacto">
+            <a>Contacto</a>
+            <li>
+               <a>Correo: Otalorajuand@gmail.com</a>
+            </li>
+            <li>
+               <a>Celular: (+57) 3203338151</a>
+            </li>
+            <li>
+               <a href="https://github.com/otalorajuand" target="_blank">
+               Github
+               </a>
+            </li>
+         </ul>
+      </footer>
+      <!--- footer--->
+   </body>
+</html>

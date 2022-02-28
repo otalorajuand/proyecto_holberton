@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2014-03-19
+    See: https://launchpad.net/bugs/1288690
+  -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>
+         Recomendaciones de Películas y Libros
+      </title>
+      <link rel="icon" type="image/x-icon" href="foto_jd.ico">
+      <!--Favicon, icon on the navigation tab -->
+      <meta charset="UTF-8">
+      <!--Encoding-->
+      <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+      <link href="styles.css" rel="stylesheet">
+      <script type="text/javascript">
+         function handleSelect(elm)
+         {
+            window.location = elm.value+".html";
+         }
+      </script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="UyNLuv0r"></script> <!--- facebook --->
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script src="behavior.js"></script>.
+      <script>
+         /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+         /*
+         var disqus_config = function () {
+         this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+         };
+         */
+         (function() { // DON'T EDIT BELOW THIS LINE
+         var d = document, s = d.createElement('script');
+         s.src = 'https://recomendaciones-de-libros-y-peliculas.disqus.com/embed.js';
+         s.setAttribute('data-timestamp', +new Date());
+         (d.head || d.body).appendChild(s);
+         })();
+     </script>
+     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   </head>
+   <body class="works_on_smartphone">
+      <header>
+         <span class="logo">
+         <a href="index.html">Recomendaciones de Películas y Libros</a>
+         </span>
+         <div class = "right">
+            <ul>
+               <li>
+                  <div id="fb-root"></div>
+                  <div class="fb-share-button" data-href="https://es-la.facebook.com/HolbertonSchoolColombia/" data-layout="button" data-size="small">
+                     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fes-la.facebook.com%2FHolbertonSchoolColombia%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a>
+                  </div>
+                  <!--- facebook--->
+               </li>
+               <li>
+                  <div style="padding-top: 0.8em; padding-bottom: 1em">
+                     <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+                  </div>
+                  <!--- twitter--->
+               </li>
+            </ul>
+         </div>
+         <nav>
+            <ul>
+               <li>
+                  <select name="Gustos" id="seleccion" onchange="javascript:handleSelect(this)" onmouseover="this.size=this.length"
+                     onmouseout="this.size=1">
+                     <option value="" selected disabled hidden >Gustos</option>
+                     <option value="cine">Cine</option>
+                     <option value="libros">Libros</option>
+                  </select>
+               </li>
+               <li>
+                  <a href="motivacion.html" class="Motivacion">Motivación</a>
+               </li>
+               <li class="quien_soy">
+                  <a href="quien_soy.html" class="Quien soy">¿Quién soy?</a>
+               </li>
+               <li class="tweet">
+                  <a href="tweets.html" class="tweets">Tweets</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <article>
+         
+         <h1>Presentación</h1>
+            <p class="texto_intro">
+               Esta es una página de mis gustos. En esta voy a describir y recomendar libros, películas y voy a explicar mi 
+               motivación para presentarme a la escuela Holberton. En esta, voy a aplicar conocimientos de HTML, CSS y JavaScript.
+               Espero que les guste.
+            </p>
+         <h2>Gusto por las películas</h2>
+            <p class="texto_intro">Siempre me ha gustado recomendar películas. En esta página me gustaría mostrar algunas de mis favoritas porque 
+               la recomendación es una de las formas en las que he descubierto mejores películas. Cómo se verá más adelante en detalle estas son las 
+               películas que recomiendo:
+            </p>
+            <h3>Películas recomendadas</h3>
+            <ul>
+               <li>Beginners</li>
+               <li>Into The Wild</li>
+               <li>Paris, Texas</li>
+            </ul>
+
+         <h2>Gusto por los libros</h2>
+            <p class="texto_intro">Además de las películas, los libros son otra forma creativa donde he encontrado momentos placenteros
+               y he conseguido estar en grandes conversaciones con amigos que comparten este gusto. Cómo se verá más adelante en detalle estos son los 
+               libros que recomiendo:
+            </p>
+            <h3>Películas recomendadas</h3>
+            <ul>
+               <li>Ideas</li>
+               <li>Las intermitencias de la muerte</li>
+               <li>Un nuevo mundo, ahora</li>
+            </ul>
+
+         <p>Por último, les cuento un poco de mí y de la motivación que tengo de presentarme a Holberton. Además, algunos tweets de 
+            Elon Musk.
+         </p>
+
+         <img class="small" src="https://miro.medium.com/max/944/1*tG3zrkB35EKTSMhl-mft5g.jpeg" id="smart_thumbnail" >
+         <figcaption><em>Click para cambiar tamaño</em></figcaption>
+      
+         </article>
+         <aside>
+            <div id="disqus_thread">
+            </div>
+         </aside>
+      </main>
+      <footer>
+         <p>Made by Juan David Otálora Carrillo for</p>
+         <a href="https://apply.holbertonschool.com" target="_blank">
+         <img  src="https://apply.holbertonschool.com/holberton-logo.png">
+         </a>
+         <ul id="contacto">
+            <a>Contacto</a>
+            <li>
+               <a>Correo: Otalorajuand@gmail.com</a>
+            </li>
+            <li>
+               <a>Celular: (+57) 3203338151</a>
+            </li>
+            <li>
+               <a id = "git" href="https://github.com/otalorajuand" target="_blank">
+               Github
+               </a>
+            </li>
+         </ul>
+      </footer>
+      <!--- footer--->
+   </body>
+</html>

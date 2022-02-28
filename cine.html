@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Recomendaciones de Películas y Libros
+      </title>
+      <link rel="icon" type="image/x-icon" href="foto_jd.ico">
+      <!--Favicon, icon on the navigation tab -->
+      <meta charset="UTF-8">
+      <!--Encoding-->
+      <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+      <link href="styles.css" rel="stylesheet">
+      <script type="text/javascript">
+         function handleSelect(elm)
+         {
+            window.location = elm.value+".html";
+         }
+      </script>
+      </script>
+      <script type="text/javascript">
+         function go_home() {
+             window.location.href = "index.html";
+         };
+      </script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="UyNLuv0r"></script> <!--- facebook --->
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <script>
+         /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+         /*
+         var disqus_config = function () {
+         this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+         this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+         };
+         */
+         (function() { // DON'T EDIT BELOW THIS LINE
+         var d = document, s = d.createElement('script');
+         s.src = 'https://recomendaciones-de-libros-y-peliculas.disqus.com/embed.js';
+         s.setAttribute('data-timestamp', +new Date());
+         (d.head || d.body).appendChild(s);
+         })();
+     </script>
+     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   </head>
+   <body class="works_on_smartphone">
+      <header>
+         <span class="logo">
+         <a href="index.html">Recomendaciones de Películas y Libros</a>
+         </span>
+         <div class = "right">
+            <ul>
+               <li>
+                  <div id="fb-root"></div>
+                  <div class="fb-share-button" data-href="https://es-la.facebook.com/HolbertonSchoolColombia/" data-layout="button" data-size="small">
+                     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fes-la.facebook.com%2FHolbertonSchoolColombia%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a>
+                  </div>
+                  <!--- facebook--->
+               </li>
+               <li>
+                  <div style="padding-top: 0.8em; padding-bottom: 1em">
+                     <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+                  </div>
+                  <!--- twitter--->
+               </li>
+            </ul>
+         </div>
+         <nav>
+            <ul>
+               <li>
+                  <select name="Gustos" id="seleccion" onchange="javascript:handleSelect(this)" onmouseover="this.size=this.length"
+                     onmouseout="this.size=1">
+                     <option value="" selected disabled hidden >Gustos</option>
+                     <option value="cine">Cine</option>
+                     <option value="libros">Libros</option>
+                  </select>
+               </li>
+               <li>
+                  <a href="motivacion.html" class="Motivacion">Motivación</a>
+               </li>
+               <li class="quien_soy">
+                  <a href="quien_soy.html" class="Quien soy">¿Quién soy?</a>
+               </li>
+               <li class="tweet">
+                  <a href="tweets.html" class="tweets">Tweets</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <article>
+        
+         <p>En la siguiente sección vamos a recomendar 3 películas de cine mundial.</p>
+         <div class = "container">
+            <img class="imagen_cine" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIGrcMT2gqlflLplgV-PnaEkb-aS3ESz-KSgXwYocy-El4rYj1">
+            <div class="middle_peliculas">
+               <div class="image_text"><a href="https://www.imdb.com/title/tt1532503/?ref_=fn_al_tt_1" target="_blank">Visitar Ficha de <b>IMDb</b></a></div>
+            </div>
+         </div>
+         <h3>Título:</h3>
+         <p class = "descripcion">Beginners</p>
+         <h3>Descripción:</h3>
+         <p class="descripcion">
+            La película Beginners relata los últimos días antes de la muerte del padre de Oliver, el protagonista. 
+            Un dato curioso es que el padre de Oliver se declaró abiertamente homosexual a sus 80 años. Oliver empieza a enteder 
+            el descubrimiento de la nueva vida de su padre y a conocer una parte de él que ninguno de los dos conocía. 
+            Luego de la muerte de su padre, Oliver empieza una relación con Anna, una mujer que conoce en una fiesa de disfraces. 
+            Beginners es una película innovadora estéticamente, que muestra la sensibilidad y creatividad de un hombre solitario 
+            que redescubre el significado del amor en la mitad de su vida. 
+         </p>
+         <h3 class="IMDB">IMDB:</h3>
+         <p class = "IMDB">7.2</p>
+         <br clear="all">
+         <div class = "container">
+            <img class="imagen_cine" src="https://pics.filmaffinity.com/Hacia_rutas_salvajes_Into_the_Wild-931354029-large.jpg">
+            <div class="middle_peliculas">
+               <div class="image_text"><a href="https://www.imdb.com/title/tt0758758/" target="_blank">Visitar Ficha de IMDb</a></div> 
+            </div>
+         </div>
+         <h3>Título:</h3>
+         <p class = "descripcion">Into The Wild</p>
+         <h3>Descripción:</h3>
+         <p class="descripcion">
+            Into the wild nos muestra la aventura de Christopher McCandless, el protagonista, en su viaje desde Boston 
+            hasta Alaska. Christopher estaba cansado de su vida perfecta, en una familia que no le falta nada 
+            económicamente. Una vez graduado, decide empezar su viaje en su carro, romper todas las tarjetas de 
+            crédito, todas sus posesiones, llevádonse solo sus libros para dejar su vida atrás y empezar a 
+            descubrir una nueva. En este improvisado y excitante viaje, Christopher conoce a varias personas que 
+            le muestran la sabiduria que solo se consigue viajando.
+         </p>
+         <h3 class="IMDB">IMDB:</h3>
+         <p class = "IMDB">8.1</p>
+         <br clear="all">
+         <div class = "container">
+            <img class="imagen_cine" src="https://elcamaleonorg.files.wordpress.com/2020/07/paris-texas_imagen1.jpg">
+            <div class="middle_peliculas">
+               <div class="image_text"><a href="https://www.imdb.com/title/tt0087884/?ref_=fn_al_tt_1" target="_blank">Visitar Ficha de IMDb</a></div>
+            </div>
+         </div>
+         <h3>Título:</h3>
+         <p class = "descripcion">Paris, Texas</p>
+         <h3>Descripción:</h3>
+         <p class="descripcion">
+            Esta película esta llena de imagenes con un uso emocional del color, donde se cuenta una historia con
+            poco diálogo. Travis Henderson es un hombre que se encuentra en la mitad del desierto, 
+            con características amnésicas. Al encontrar un bar revela su nombre y las personas presentes contactan a su 
+            hermano para llevarlo a su casa. Travis continua con su mutismo los primeros días en la casa de 
+            su hermano. Por fin, este empieza a revelar que extraña a su ex esposa y decide reecontrarse con ella en el
+            lugar donde trabaja. Pareciera como si la película preparara a sus espectadores para esta escena, debido a que
+            dicha escena llega en un momento preciso y con una efectividad estética impactante.
+         </p>
+         <h3 class="IMDB">IMDb:</h3>
+         <p class = "IMDB">8.1</p>
+         <br clear="all">
+         <button class="go_home_button" onclick="javascript:go_home(this)">Volver al Home</button>
+      </article>
+      <aside>
+         <div id="disqus_thread">
+         </div>
+      </aside>
+      </main>
+      <footer>
+         <p>Made by Juan David Otálora Carrillo for</p>
+         <a href="https://apply.holbertonschool.com" target="_blank">
+         <img src="https://apply.holbertonschool.com/holberton-logo.png">
+         </a>
+         <ul id="contacto">
+            <a>Contacto</a>
+            <li>
+               <a>Correo: Otalorajuand@gmail.com</a>
+            </li>
+            <li>
+               <a>Celular: (+57) 3203338151</a>
+            </li>
+            <li>
+               <a href="https://github.com/otalorajuand" target="_blank">
+               Github
+               </a>
+            </li>
+         </ul>
+      </footer>
+      <!--- footer--->
+   </body>
+</html>

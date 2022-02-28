@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Recomendaciones de Películas y Libros 
+      </title>
+      <link rel="icon" type="image/x-icon" href="foto_jd.ico">
+      <!--Favicon, icon on the navigation tab -->
+      <meta charset="UTF-8">
+      <!--Encoding-->
+      <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+      <link href="styles.css" rel="stylesheet">
+      <script type="text/javascript">
+         function handleSelect(elm)
+         {
+            window.location = elm.value+".html";
+         }
+      </script>
+      <script type="text/javascript">
+         function go_home() {
+             window.location.href = "index.html";
+         };
+      </script>
+     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="UyNLuv0r"></script> <!--- facebook --->
+     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+     <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://recomendaciones-de-libros-y-peliculas.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+   </script>
+   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   </head>
+   <body class="works_on_smartphone">
+      <header>
+         <span class="logo">
+         <a href="index.html">Recomendaciones de Películas y Libros </a>
+         </span>
+         <div class = "right">
+            <ul>
+               <li>
+                  <div id="fb-root"></div>
+                  <div class="fb-share-button" data-href="https://es-la.facebook.com/HolbertonSchoolColombia/" data-layout="button" data-size="small">
+                     <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fes-la.facebook.com%2FHolbertonSchoolColombia%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Compartir</a>
+                  </div>
+                  <!--- facebook--->
+               </li>
+               <li>
+                  <div style="padding-top: 0.8em; padding-bottom: 1em">
+                     <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+                  </div>
+                  <!--- twitter--->
+               </li>
+            </ul>
+         </div>
+         <nav>
+            <ul>
+               <li>
+                  <select name="Gustos" id="seleccion" onchange="javascript:handleSelect(this)" onmouseover="this.size=this.length"
+                     onmouseout="this.size=1">
+                     <option value="" selected disabled hidden >Gustos</option>
+                     <option value="cine">Cine</option>
+                     <option value="libros">Libros</option>
+                  </select>
+               </li>
+               <li>
+                  <a href="motivacion.html" class="Motivacion">Motivación</a>
+               </li>
+               <li class="quien_soy">
+                  <a href="quien_soy.html" class="Quien soy">¿Quién soy?</a>
+               </li>
+               <li class="tweet">
+                  <a href="tweets.html" class="tweets">Tweets</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <article>
+         
+         <h1>Motivaciones para presentarme a Holberton</h1>
+         <ul>
+            <li>
+               <h2>Alineación con Filosofía de Educación</h2>
+               <p class="descripcion">
+                  Siempre me ha parecido importante cuestionar las principales instituciones que afectan directamente la vida cotidiana, como la mía. Temas como 
+                  la religión, la tecnología, la familia, el propósito de vida la mayoría de las veces están constituidos por arraigadas y rígidas estructuras
+                  sociales que mucha gente hereda y adopta sin pensamiento crítico para cuestionar si esta forma de vivir es la mejor para cada individuo.
+                  En este orden de ideas, la educación me parece una institución que determina los límites de una persona en términos de conocimiento. La educación
+                  tradicional tiene características industriales que estandarizan la forma en la que cada persona aprende y la forma en que cada área de conocimiento
+                  es enseñada. Es muy diferente enseñar programación a comunicación social, sin embargo ambas áreas se enseñan en el mismo número de semestres y con 
+                  el mismo número de materias por semestre. Además, se hace énfasis en grandes cantidades de teoría sin aplicación que luego de varios años de graduado
+                  queda en el aire. Por esta razón, me gusta la forma en que se enseña en Holberton ya que se hace énfasis en los proyectos y en la manera inversa 
+                  de recibir la información que cada estudiante vaya necesitando en la medida en que no se entienda algún tema.
+               </p>
+            </li>
+            <li>
+               <h2>Formación Fundamentada de Programación</h2>
+               <p class="descripcion">La programación es un área de conocimiento donde encaja muy bien la figura de la persona autodidacta. Muchas personas hacen cursos online y aprende 
+                  de cualquier tema. Sin embargo, la mayoría de las personas lo hacen en su tiempo libre y aplican estos conocimientos a proyectos básicos o sin mucha
+                  relevancia empírica. Por esta razón, me parece valioso y relevante tomarse un tiempo razonable para dedicar a tiempo completo para dedicarse a aprender
+                  de manera fundamentada la práctica de programación, ya que de cualquier otra manera uno va a poder programar, pero no de una manera pulida, sin buenas 
+                  prácticas y sin un conocimiento completo de los recursos disponibles.
+               </p>
+            </li>
+            <li>
+               <h2>Especializaciones</h2>
+               <p class="descripcion">Además de tener una fundamentación en los principales temas de computación y programación, me llama mucho la atención poder especializarse y tener 9 meseses para 
+                  profundizar en una de las ramas de aplicación. La especialización luego de 9 meses de fundamentación hace que sea mucho más fructífera y que se comprenda mejor 
+                  el alcance de cada tema. 
+               </p>
+            </li>
+         </ul>
+         <button class="go_home_button" onclick="javascript:go_home(this)">Volver al Home</button>
+         </article>
+         <aside>
+            <div id="disqus_thread">
+            </div>
+         </aside>
+      </main>
+      <footer>
+         <p>Made by Juan David Otálora Carrillo for</p>
+         <a href="https://apply.holbertonschool.com" target="_blank">
+         <img src="https://apply.holbertonschool.com/holberton-logo.png">
+         </a>
+         <ul id="contacto">
+            <a>Contacto</a>
+            <li>
+               <a>Correo: Otalorajuand@gmail.com</a>
+            </li>
+            <li>
+               <a>Celular: (+57) 3203338151</a>
+            </li>
+            <li>
+               <a href="https://github.com/otalorajuand" target="_blank">
+               Github
+               </a>
+            </li>
+         </ul>
+      </footer>
+      <!--- footer--->
+   </body>
+</html>
